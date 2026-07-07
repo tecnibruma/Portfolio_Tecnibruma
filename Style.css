@@ -43,10 +43,10 @@ h2 { font-size: 1.5rem; color: #666; margin-bottom: 2rem; }
 }
 .columna:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
 :root {
-    --color-fondo-oscuro: #1b2631;      /* Azul marino profundo de tu web */
-    --color-texto-blanco: #ffffff;      /* Blanco */
-    --color-acento-amarillo: #d4e157;   /* Amarillo eléctrico de tus iconos */
-    --color-gris-claro: #f4f7f6;        /* Fondo base */
+    --color-fondo-oscuro: #1b2631;      
+    --color-texto-blanco: #ffffff;      
+    --color-acento-amarillo: #d4e157;   
+    --color-gris-claro: #f4f7f6;        
 }
 
 /* Aplicación al sitio */
@@ -64,7 +64,7 @@ h1 {
     color: var(--color-primario);
 }
 
-/* Botones con tu identidad */
+
 .btn-primary {
     background-color: var(--color-primario) !important;
     border-color: var(--color-primario) !important;
@@ -83,14 +83,14 @@ h1 {
     border: 1px solid var(--fondo-gris);
     background-color: #ffffff;
 }
-/* Color para los enlaces del menú de navegación */
+
 .navbar a, .nav-link {
-    color: var(--color-fondo-oscuro) !important; /* Azul Tecnibruma */
-    font-weight: 600; /* Un poco más grueso para que se lea mejor */
-    transition: color 0.3s ease; /* Efecto suave al cambiar */
+    color: var(--color-fondo-oscuro) !important; 
+    font-weight: 600; /
+    transition: color 0.3s ease; 
 }
 
-/* Efecto al pasar el ratón: que cambien al amarillo de tu marca */
+
 .navbar a:hover, .nav-link:hover {
     color: var(--color-acento-amarillo) !important;
 }
