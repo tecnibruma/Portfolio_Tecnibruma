@@ -1,0 +1,96 @@
+/* --- Limpieza y Reset --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+
+/* --- Ajuste de imágenes --- */
+img { max-width: 100%; height: auto; }
+
+/* --- Heroe section (Organizado) --- */
+.Heroe {
+    padding: 3rem 1rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.imagenes-desarrollador {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem auto;
+    display: block;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.Heroe-inferior-imagenes {
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+/* --- Títulos --- */
+h1 { font-family: 'Rubik Dirt', cursive; font-size: 2.5rem; color: #333; }
+h2 { font-size: 1.5rem; color: #666; margin-bottom: 2rem; }
+
+/* --- Experiencias --- */
+.Experiencias { padding: 4rem 1rem; }
+.columna {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.columna:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+:root {
+    --color-fondo-oscuro: #1b2631;      /* Azul marino profundo de tu web */
+    --color-texto-blanco: #ffffff;      /* Blanco */
+    --color-acento-amarillo: #d4e157;   /* Amarillo eléctrico de tus iconos */
+    --color-gris-claro: #f4f7f6;        /* Fondo base */
+}
+
+/* Aplicación al sitio */
+body {
+    background-color: var(--fondo-claro);
+    color: #333;
+}
+
+.Heroe {
+    background-color: var(--fondo-gris); /* Fondo de sección hero */
+    border-bottom: 3px solid var(--color-primario);
+}
+
+h1 {
+    color: var(--color-primario);
+}
+
+/* Botones con tu identidad */
+.btn-primary {
+    background-color: var(--color-primario) !important;
+    border-color: var(--color-primario) !important;
+}
+
+.btn-primary:hover {
+    background-color: #004494 !important;
+}
+
+/* Sección de experiencias */
+.seccion-clara {
+    background-color: var(--fondo-claro);
+}
+
+.columna {
+    border: 1px solid var(--fondo-gris);
+    background-color: #ffffff;
+}
+/* Color para los enlaces del menú de navegación */
+.navbar a, .nav-link {
+    color: var(--color-fondo-oscuro) !important; /* Azul Tecnibruma */
+    font-weight: 600; /* Un poco más grueso para que se lea mejor */
+    transition: color 0.3s ease; /* Efecto suave al cambiar */
+}
+
+/* Efecto al pasar el ratón: que cambien al amarillo de tu marca */
+.navbar a:hover, .nav-link:hover {
+    color: var(--color-acento-amarillo) !important;
+}

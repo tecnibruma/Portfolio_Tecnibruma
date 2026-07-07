@@ -1,0 +1,28 @@
+Proyecto: Sistema de Gestión de Leads para Tecnibruma Soluciones Informáticas
+Descripción del Proyecto
+Plataforma web diseñada para la comercialización de servicios de desarrollo de software y automatización de sistemas. El objetivo principal es la gestión automatizada de consultas y la calificación de proyectos técnicos, permitiendo un flujo de trabajo ordenado desde la solicitud inicial hasta la presupuestación final.
+
+Flujo de Trabajo Técnico
+El sistema implementa un embudo de ventas dividido en tres fases lógicas, integradas en la interfaz de usuario:
+
+Fase de Validación Inicial: El cliente accede a una consultoría técnica inicial mediante un pago fijo. Esta fase actúa como filtro para asegurar la calidad de las consultas entrantes.
+
+Fase de Consultoría de Viabilidad: Tras la validación, el sistema habilita el flujo de comunicación directa para la evaluación de envergadura del proyecto.
+
+Fase de Presupuesto: Panel administrativo para la captura de datos finales (horas de desarrollo, tecnologías y costos) ingresados exclusivamente por el equipo técnico.
+
+Tecnologías Implementadas
+Frontend: Desarrollo de interfaz interactiva utilizando JavaScript para la manipulación del DOM y gestión de eventos.
+
+Estado: Implementación de lógica de estado en el lado del cliente para gestionar la validación de pagos y el acceso a los formularios.
+
+Persistencia: Uso de localStorage para el almacenamiento temporal de datos de sesión y del carrito de servicios.
+
+Integración: Flujo de validación de pagos integrado (ej. Mercado Pago).
+
+Objetivos de Desarrollo (Frontend)
+UX/UI: Creación de una experiencia de usuario fluida, enfocada en la conversión de servicios profesionales.
+
+Validaciones: Implementación de validaciones de formularios en el lado del cliente para asegurar la integridad de los datos antes del envío.
+
+Diseño Responsivo: Adaptabilidad total de los flujos de trabajo en dispositivos móviles y escritorio.
