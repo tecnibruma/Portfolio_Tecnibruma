@@ -86,7 +86,7 @@ h1 {
 
 .navbar a, .nav-link {
     color: var(--color-fondo-oscuro) !important; 
-    font-weight: 600; /
+    font-weight: 600; 
     transition: color 0.3s ease; 
 }
 
